@@ -20,7 +20,7 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      Ignoring Tests for now
+      # Not Ignoring Tests for now
       - name: Run tests
       run: npm run test:headless
 
