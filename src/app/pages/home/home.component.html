@@ -1,12 +1,11 @@
 <div class="home_container">
-    
-    <app-card
-        *ngFor="let i of data"
+    <ng-container *ngFor="let i of data; index">
+        <app-card
             gameCover="{{i.gameCover}}"
             label="{{i.label}}"
             title="{{i.title}}"
             gameType="{{i.gameType}}"
             price="{{i.price}}"
-    ></app-card>    
-    
+        ></app-card> 
+    </ng-container>
 </div>

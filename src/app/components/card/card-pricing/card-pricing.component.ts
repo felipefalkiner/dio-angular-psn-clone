@@ -8,13 +8,13 @@ import { Component, Input, OnInit } from '@angular/core';
 export class CardPricingComponent implements OnInit {
 
   @Input()
-  title:string= 'Play It Now!';
+  title:string= '';
   
   @Input()
-  gameType:string = 'Full Game | PS4';
+  gameType:string = '';
   
   @Input()
-  price:string = 'R$ 299,90';
+  price:string = '';
   
   constructor() { }
 
